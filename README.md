@@ -29,6 +29,4 @@ When you just work with any kind of ship and don't need the specifcs: whether yo
 
 
 
-Java 8
-
-Created by Rainer Knabenbauer
+Java 8, Created by Rainer Knabenbauer
