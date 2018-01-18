@@ -2,18 +2,18 @@
 Playing around with basic factory pattern
 
 **The Factory Pattern**
-> The capability to choose classes at runtime
+- The capability to choose classes at runtime
 
 **Basic principle**
-> (1) public abstract class AbstractClass () { }
-> (2) public class ImplementationClass extends AbstractClass() { }
+(1) public abstract class AbstractClass () { }
+(2) public class ImplementationClass extends AbstractClass() { }
 
 **Implementation**
 <client>  ->  <factory> ShipFactory  ->  <abstract> Ship
-> Ship *is parent, implements all basic attributes and behavior *
-> UfoShip extends Ship
-> MotorboatShip extends Ship
-> SailingShip extends Ship
+- Ship *is parent, implements all basic attributes and behavior *
+- UfoShip extends Ship
+- MotorboatShip extends Ship
+- SailingShip extends Ship
 
 Client now accesses ShipFactory, ShipFactory returns a Ship.
 Which ship (implementation) will get returned, is at this time undefined.
