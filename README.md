@@ -5,12 +5,12 @@ Playing around with basic factory pattern
 - The capability to choose classes at runtime
 
 ###### Basic principle
-(1) public abstract class AbstractClass () { }
+- public abstract class AbstractClass () { }
 
-(2) public class ImplementationClass extends AbstractClass() { }
+- public class ImplementationClass extends AbstractClass() { }
 
 ###### Implementation
-<client>  ->  <factory> ShipFactory  ->  <abstract> Ship
+\<client>  ->  \<factory> ShipFactory  ->  \<abstract> Ship
 - Ship *is parent, implements all basic attributes and behavior *
 - UfoShip extends Ship
 - MotorboatShip extends Ship
