@@ -4,10 +4,12 @@ Playing around with basic factory pattern
 ###### The Factory Pattern
 - The capability to choose classes at runtime
 
+
 ###### Basic principle
 - public abstract class AbstractClass () { }
 
 - public class ImplementationClass extends AbstractClass() { }
+
 
 ###### Implementation
 \<client>  ->  \<factory> ShipFactory  ->  \<abstract> Ship
@@ -15,6 +17,7 @@ Playing around with basic factory pattern
 - UfoShip extends Ship
 - MotorboatShip extends Ship
 - SailingShip extends Ship
+
 
 The client now accesses ShipFactory, ShipFactory does return a Ship.
 Which ship (actual implementation) will get returned, is at this time undefined.
