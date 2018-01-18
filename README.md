@@ -12,7 +12,7 @@ Playing around with basic factory pattern
 
 
 ###### Implementation
-\<client>  ->  \<factory> ShipFactory  ->  `\<abstract> Ship`
+\<client>  ->  \<factory> ShipFactory  ->  `<abstract> Ship`
 - Ship *is parent, implements all basic attributes and behavior*
 - UfoShip extends Ship
 - MotorboatShip extends Ship
